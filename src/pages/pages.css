@@ -1,0 +1,50 @@
+.hero-section {
+  width: 100%;
+  height: 60vh;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.skills-section {
+  width: 100%;
+  height: 60vh;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.about-section {
+  width: 100%;
+  height: 60vh;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.experience-section {
+  width: 100%;
+  height: 60vh;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.projects-section {
+  width: 100%;
+  height: 60vh;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.testimonial-section {
+  width: 100%;
+  height: 60vh;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.contact-section {
+  width: 100%;
+  height: 60vh;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+
