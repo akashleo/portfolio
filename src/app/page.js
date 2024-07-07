@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 import AboutMe from "@/pages/AboutMe";
 import Contact from "@/pages/Contact";
 import Experience from "@/pages/Experience";
@@ -9,14 +10,17 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Hero />
-      <Skills />
-      <Experience />
-      <AboutMe />
-      <Projects />
-      <Testimonial />
-      <Contact />
-    </main>
+    <>
+      <Navbar />
+      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <Hero />
+        <Skills />
+        <Experience />
+        <AboutMe />
+        <Projects />
+        <Testimonial />
+        <Contact />
+      </main>
+    </>
   );
 }
