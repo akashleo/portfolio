@@ -3,6 +3,9 @@ import "./pages.css";
 
 export default function AboutMe() {
   return (
-    <div className="about-section">AboutMe</div>
+  <div>
+      <div className="about-section">AboutMe</div>
+     <div className="about-section">AboutMe</div>
+  </div>
   )
 }
