@@ -1,50 +1,87 @@
 .hero-section {
   width: 100%;
   height: 60vh;
-  border: 1px solid black;
+  border: 1px solid white;
   margin-bottom: 20px;
 }
 
 .skills-section {
   width: 100%;
   height: 60vh;
-  border: 1px solid black;
+  border: 1px solid white;
   margin-bottom: 20px;
 }
 
 .about-section {
   width: 100%;
   height: 60vh;
-  border: 1px solid black;
+  border: 1px solid white;
   margin-bottom: 20px;
 }
 
 .experience-section {
   width: 100%;
   height: 60vh;
-  border: 1px solid black;
+  border: 1px solid white;
   margin-bottom: 20px;
 }
 
 .projects-section {
   width: 100%;
   height: 60vh;
-  border: 1px solid black;
+  border: 1px solid white;
   margin-bottom: 20px;
 }
 
 .testimonial-section {
   width: 100%;
   height: 60vh;
-  border: 1px solid black;
+  border: 1px solid white;
   margin-bottom: 20px;
 }
 
 .contact-section {
   width: 100%;
   height: 60vh;
-  border: 1px solid black;
+  border: 1px solid white;
   margin-bottom: 20px;
 }
 
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  background: linear-gradient(135deg, #6b73ff, #000dff); /* Gradient background */
+  color: white; /* Text color */
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-title {
+  font-size: 3rem; /* Large title */
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem; /* Subtitle size */
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #000dff; /* Button text color */
+  background-color: white; /* Button background color */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #f0f0f0; /* Change background on hover */
+}
 
