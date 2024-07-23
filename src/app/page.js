@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import AboutMe from "@/pages/AboutMe";
-import Contact from "@/pages/Contact";
+import Blogs from "@/pages/Blogs";
 import Experience from "@/pages/Experience";
 import Hero from "@/pages/Hero";
 import Projects from "@/pages/Projects";
@@ -19,7 +19,7 @@ export default function Home() {
         <AboutMe />
         <Projects />
         <Testimonial />
-        <Contact />
+        <Blogs />
       </main>
     </>
   );

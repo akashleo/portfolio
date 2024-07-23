@@ -1,11 +1,11 @@
-"use client";
+"use client"
 import React from "react";
 import "./pages.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function Testimonial() {
+export default function Blogs() {
   const settings = {
     dots: true,
     infinite: true,
@@ -14,7 +14,7 @@ export default function Testimonial() {
     slidesToScroll: 1,
   };
 
-  const testimonials = [
+  const blogs = [
     {
       id: 1,
       name: "John Doe",
@@ -44,30 +44,29 @@ export default function Testimonial() {
         "https://upload.wikimedia.org/wikipedia/commons/5/53/Weaver_bird.jpg", // Replace with actual image URL
     },
   ];
-
   return (
     <div className="flex items-center justify-around w-[40vw] mx-auto bg-gray-800 text-white p-4 rounded-lg shadow-lg mb-10 border-2 border-white">
       <div className="bg-gray-800 text-white py-8 w-[100%]">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-4 text-center">Testimonials</h2>
+          <h2 className="text-2xl font-bold mb-4 text-center">Blogs</h2>
           <Slider {...settings}>
-            {testimonials.map((testimonial) => (
+            {blogs.map((blog) => (
               <>
-              <div
-                key={testimonial.id}
-                className="flex items-center bg-gray-700 p-4 rounded-lg shadow-lg"
-              >
-                <img
-                  src={testimonial.imageUrl}
-                  alt={testimonial.name}
-                  className="w-24 h-24 rounded-full mr-4 object-cover"
-                />
+                <div
+                  key={blog.id}
+                  className="flex items-center bg-gray-700 p-4 rounded-lg shadow-lg"
+                >
+                  <img
+                    src={blog.imageUrl}
+                    alt={blog.name}
+                    className="w-32 h-32 object-cover rounded-lg"
+                  />
 
-                <div className="ml-4">
-                  <h3 className="font-semibold">{testimonial.name}</h3>
-                  <p className="text-gray-400">{testimonial.comment}</p>
+                  <div className="ml-4">
+                    <h3 className="font-semibold">{blog.name}</h3>
+                    <p className="text-gray-400">{blog.comment}</p>
+                  </div>
                 </div>
-              </div>
               </>
             ))}
           </Slider>
