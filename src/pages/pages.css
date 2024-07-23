@@ -58,6 +58,7 @@
   color: white; /* Text color */
   text-align: center;
   padding: 20px;
+  width: 70vw;
 }
 
 .hero-title {
@@ -83,5 +84,10 @@
 
 .hero-button:hover {
   background-color: #f0f0f0; /* Change background on hover */
+}
+
+.profile-image{
+  height: 10rem;
+  width: 10rem;
 }
 
